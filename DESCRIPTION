@@ -1,0 +1,15 @@
+Package: surveys
+Title: Surveys query
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kinh",
+           family = "Nguyen",
+           role = c("aut", "cre"),
+           email = "k.nguyen@imperial.ac.uk",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Surveys query
+License: use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
