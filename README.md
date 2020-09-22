@@ -11,7 +11,7 @@ library(survey)
 
 # Usage
 
-Generate a new `surveys` object, just started with MICS
+Generate a new `surveys` object, only MICS women and men metadata is here now.
 
 ```r
 mics <- MICS$new()
@@ -44,7 +44,7 @@ mics$find_in_label(what='^(?!ever|reason).*ever had sex', show='label')
 Find in survey's variables name by regex pattern.
 
 ```r
-mics$find_in_label('^(?!ever|reason).*ever had sex', 'label') %>% unique
+mics$find_in_name('00')
 ```
 
 # How to contributes
